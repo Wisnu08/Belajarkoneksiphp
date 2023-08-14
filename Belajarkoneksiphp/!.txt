@@ -1,0 +1,15 @@
+Client menginput data username & pw, klik submit 
+Server memeriksa ketersediaan username di dalam database
+jika tidak ada, berikan pesan error
+jika ada, lanjut ke pengecekan pw, masukkan user ke dalam variabel
+server melakukan pengecekan deskripsi pw yg ada dalam variabel user
+jika tidak cocok, berikan pesan error
+jika cocok, daftarkan session dan cookiesnya, lalu redirect ke halaman HOME
+
+Di HOME, lakukan pengecekan wewenang dari user
+jika tidak berwenang , kembalilah ke halaman login
+jika berwenang, tampilkan halaman HOME dan lain2
+
+Di login, lakukan pengecekan autentikasi
+jika sudah autentikasi, kembalilah ke halaman HOME
+jika belum, tampilkan halaman login.
